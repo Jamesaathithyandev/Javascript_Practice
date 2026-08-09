@@ -364,7 +364,7 @@ console.log("Highest Mark Student:", highestMark);
 console.log("Sorted Students:", sortedStudents);
 
 /* 
-Things i learnt:
+Things I learnt:
 1. Use Initial 0 in reduce function to avoid NaN error.
 2. Use spread operator to avoid mutating the original array when sorting.
 */
