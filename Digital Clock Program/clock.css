@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    background-image: url("5330558.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.clock {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+    color: #333;
+    text-align: center;
+    margin-top: 20%;
+    background-color: rgba(255, 255, 255, 0.236);
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 35%;
+    margin-right: 35%;
+} 
+
+#text {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: #333;
+    text-align: center;
+    margin-top: -40px;
+
+}
+
+
+
