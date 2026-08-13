@@ -1,0 +1,93 @@
+.divbox{
+    background-color: rgba(0, 0, 0, 0.751);
+    border-radius: 20px;
+    width:1000px;
+    height: 500px;
+    margin: 16%;
+
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    padding:25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    color:rgb(93, 125, 255);
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+
+#rock{
+    margin:3%;
+    padding:3%;
+    font-size:50px;
+    border-radius:100% ;
+    
+}
+
+#paper{
+    margin:3%;
+    padding:3%;
+    font-size:50px;
+    border-radius:100% ;
+}
+
+#scissor{
+    margin:3%;
+    padding:3%;
+    font-size:50px;
+    border-radius:100% ;
+}
+
+#playerdisplay{
+    margin-top: 20px;
+    font-size: 20px;
+    color:rgb(93, 125, 255);
+}
+
+#computerdisplay{
+    font-size: 20px;
+    color:rgb(93, 125, 255);
+}
+
+
+#resultdisplay{
+    font-size: 40px;
+
+}
+
+#playerdisplay,#computerdisplay,#resultdisplay{
+    display:flex;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+#playerscore{
+    color:rgb(57, 255, 47);
+    margin-left:10px;
+}
+#computerscore{
+    color:red;
+    margin-left:10px;
+}
+
+.scoredisplay{
+    display:flex;
+    justify-content: center;
+    margin-top: 10px;
+    color:rgb(93, 125, 255);
+    font-size: 20px;
+}
+
+
+
+.greentext{
+    color:rgb(57, 255, 47);
+}
+
+.redtext{
+    color:rgb(255, 0, 0);
+}
