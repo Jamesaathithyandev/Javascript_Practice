@@ -1,0 +1,80 @@
+body{
+    background-color: rgba(0, 0, 0, 0.84);
+}   
+
+.title {
+    color: rgb(255, 175, 175);
+    display: flex;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top:60px;
+    font-size: 50px;
+}
+
+.cityinput{
+    border-radius: 10px;
+    border-color: rgb(254, 252, 252);
+    background-color: rgb(170, 170, 170);
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 15px;
+} 
+
+input::placeholder{
+    color: black;
+    font-weight: 900;
+}
+
+input:not(:placeholder-shown) {
+    color: rgb(255, 107, 107);
+    font-weight: 900;
+}
+
+button[type="submit"] {
+    border-radius: 10px;
+    padding: 15px;
+    margin-left:10px;
+    background-color: rgb(255, 107, 107);
+    border:none;
+    color:whitesmoke;
+    font-family:'Courier New', Courier, monospace;
+    font-size:15px;
+    font-weight: 900;
+}
+
+.weatherform{
+    display: flex;
+    justify-content: center;
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+
+.card{
+    background: linear-gradient(180deg, rgb(255, 107, 107), rgb(255, 175, 175));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;        
+    margin: 0 auto;          
+    padding: 30px 20px;      
+    border-radius: 15px;   
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+
+.emoji {
+    margin-top:10px;
+    margin-bottom:10px;
+    font-size: 50px;
+}
